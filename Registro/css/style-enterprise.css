@@ -1,0 +1,190 @@
+* {
+  color: #707070;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image:  url(../../images/Hojas\ 4.png), url(../../images/Fondo);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+}
+
+.container-logo {
+  margin: 1.5% 0 1.5% 150px;
+  width: 40%;
+  height: 570px;
+}
+
+.container__div-logo {
+  position: relative;
+  top: 30%;
+}
+
+.container__div {
+  margin: 20px 0 0 90px;
+  width: 40%;
+  height: 570px;
+}
+
+.container__div-login {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.login-icons {
+  width: 72%;
+  height: 95px;
+  border-bottom: 2px solid #777;
+  margin-bottom: 2%;
+  margin: auto;
+}
+
+.login-icons img {
+  width: 15%;
+  margin: 0 5%;
+}
+
+.login-input {
+  width: 85%;
+  height: 300px;
+  margin: auto;
+}
+
+.login-input input {
+  min-width: 253px;
+  border: none;
+  margin: 10px;
+  width: 85%;
+  height: 40px;
+  background-color: #ecfcfc;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.login-input input:focus {
+  outline: none;
+  border: 0;
+}
+
+.login-submit input {
+  border: none;
+  margin-top: 2%;
+  width: 40%;
+  height: 47px;
+  background-color:#00A098;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50px;
+  color: #fff;
+  min-width: 147px;
+}
+
+.login-submit input:focus {
+  outline: none;
+  border: 0;
+}
+
+.login-submit input:hover {
+  cursor: pointer;
+  background-color: #01837c;
+}
+
+.login-submit input:active {
+  color: burlywood;
+}
+
+.login-register {
+  margin-top: 3%;
+ 
+}
+
+.login-register a {
+  margin-top: 30px;
+  font-weight: 800;
+  color: #00A098;
+}
+
+.login-register a:hover {
+  cursor: pointer;
+  color: #01837c;
+}
+
+footer {
+  width: 550px;
+  height: 20px;
+  margin: auto;
+}
+
+footer p a {
+  margin-top: 30px;
+  color: #18a19a;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    display: block;
+  }
+
+  .container-logo {
+    width: 50%;
+    height: 1%;
+    margin: 30px auto;
+  }
+
+  .container__div-logo {
+    position: relative;
+    top: 15%;
+  }
+
+  .container__div {
+    width: 90%;
+    height: 440px;
+    margin: auto;
+  }
+
+  .container__div-login {
+    font-size: 80%;
+  }
+
+  .login-icons {
+    height: 1%;
+  }
+
+  .login-input {
+    height: 250px;
+  }
+
+  .login-input input {
+    height: 30px;
+    font-size: 130%;
+  }
+
+  .login-submit input {
+   
+    height: 30px;
+    font-size: 140%;
+  }
+
+  .login-register {
+    font-size: 15px;
+  }
+
+  footer {
+    width: 90%;
+    height: 40px;
+    text-align: center;
+  }
+
+  footer p a {
+    font-size: 15px;
+  }
+}

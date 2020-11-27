@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scaleble=no, minimun-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/Normalize/normalize.css">
+    <link rel="stylesheet" href="css/stylre-form-place.css">
+    <title>FormPlace</title>
+</head>
+<body>
+    
+        <section class="navbar">
+            <div class="navbar-icon">
+                <img src="../images/icono.png" alt="">
+            </div>
+            <div class="search">
+                <div class="search_img">
+                    <button>
+                        <img src="../images/Grupo 3024.png">
+                    </button>
+                </div>
+                <input type="text" placeholder="Buscar...">
+            </div>
+            <section class="navbar-map">
+                <img src="../images/Grupo 2990.png">
+            </section>
+            <section class="navbar-plus">
+                <img src="../images/Grupo 3022.png">
+            </section>
+            <section class="navbar-person">
+                <p>
+                    <a href="">Nombre de Usuario </a>
+                </p>
+                <img src="../images/Intersección 1.png" alt="">
+            </section>
+        </section>
+       
+ 
+    
+        <div class="margin-top"></div>
+   
+        <p class="p-sub">Diligencia la siguiente información mínima</p>
+        <div class="form-place">
+           <p>
+               <label for="NamePlace" class="negri">Nombre del lugar o actividad <b> *</b></label>
+               <input type="text"name="NamePlace" placeholder="Ejemplo: Cascada salto candelas" required>
+           </p>
+           <p>
+            <label for="NameCity" class="negri">Ciudad o lugar donde se encuentra <b> *</b></label>
+            <input type="text"name="NamePlace" placeholder="Ejemplo: Bogotá, Colombia" required>
+           </p>
+           <p>
+            <label for="location" class="negri">Dirección <b> *</b></label>
+            <input type="text"name="location"  required>
+           </p>
+          
+
+        </div>
+        <p class="check">
+            <label for="costo" class="negri">Costo <b> *</b></label>
+            <input type="checkbox"name="costo" class="in1"  required >
+            Gratis
+            <input type="checkbox"name="costo" class="in2" required >
+            Tarifas
+        </p>
+        
+        
+        <div class="form-place" >
+            <p class="Descrip" >
+                <label for="desc" class="negri" >Descripción del lugar o actividad <b> *</b></label>
+                <input type="text"name="desc" placeholder="Mínimo 200 caracteres, máximo 300"  required>
+               </p>
+
+                
+
+        </div>
+        <p id="minPic" class="negri">Sube las mejores fotos que tengas de este lugar (Mínimo 2 fotos) <b> *</b> </p>
+        <div class="file">
+            <p> Subir Fotos </p>
+            <img src="../images/Icon feather-upload.png" alt="">
+     
+                <input type="file"name="archivos" id="file" accept="image/*" placeholder="Subir fotos"  required>
+                
+        </div>
+        <ul class="buttons">
+            <li ><a href="login"><button id="buttonAtras"> Atras </button></a></li>
+            <li ><button id="buttonsend"> Enviar solicitud </button></li>
+
+        </ul>
+        <div class="vacio">
+
+        </div>
+
+      
+    
+
+
+   
+</body>
+</html>
